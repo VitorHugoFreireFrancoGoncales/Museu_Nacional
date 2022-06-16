@@ -1,0 +1,100 @@
+
+        /* Início Configuração Padrão*/
+        body, html {
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        /* Fim Configuração Padrão*/
+
+        /* Início Efeito Parallax*/
+        .caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .caixa1 {
+            background-image: url(./img/Egito_Antigo1.jpg);
+        }
+
+        .caixa2 {
+            background-image: url(./img/monalisa_craft.jpg);
+        }
+
+        .caixa3{
+            background-image: url(./img/top_museu.jpg);
+        }
+
+        .caixa4 {
+            background-image: url(./img/top_museu03.jpg);
+        }
+
+        .caixa5 {
+            background-image: url(./img/top_museu02.jpg);
+        }
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0%;
+            top: 45%;
+            width: 100%;  
+            text-align: center;
+        }
+
+        .conteudo-titulo span.titulo {
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            color: #fff;
+        }
+        /* Início Efeito Parallax*/
+
+
+        /*Cabeçalho*/
+        footer {
+            clear: both;
+            padding: 20px 0 30px 0;
+            text-align: center;
+            background: url(./img/fundo-rodape.png) no-repeat center top;
+            margin-top: 20px;
+        }
+        
+        footer>p a {
+            padding: 2px 10px;
+        
+        }
+
+        a:link, a:active, a:visited {
+            color: #af670a;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #227115;
+        }
+        
